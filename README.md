@@ -1,6 +1,7 @@
 # caffe-roc
 
-This is for deep feature extraction and evaluating face verification performance on the LFW database, implemented by PyCaffe and python. 
+This is a simple and naive program for deep feature extraction and evaluating face verification performance on the LFW database, implemented by PyCaffe and Python. 
+
 
 I’ve provide a deep caffemodel and trainNet in the model folder, more detail can be found at [1]
 
@@ -25,4 +26,5 @@ The implementation of testROC makes reference to [2], and extraction.py makes re
 
 ## Reference
 [1] [Deep Learning Face Representation by Joint  Identification-Verification](http://papers.nips.cc/paper/5416-deep-learning-face-representation-by-joint-identification-verification.pdf) 
+
 [2] https://github.com/cyh24/Joint-Bayesian
