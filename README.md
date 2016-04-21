@@ -21,5 +21,8 @@ When feature extraction has done, run:
 
 for performance evaluation.
 
+The implementation of testROC makes reference to [2], and extraction.py makes reference to the caffe documents.
+
 ## Reference
 [1] [Deep Learning Face Representation by Joint  Identification-Verification](http://papers.nips.cc/paper/5416-deep-learning-face-representation-by-joint-identification-verification.pdf) 
+[2] https://github.com/cyh24/Joint-Bayesian
