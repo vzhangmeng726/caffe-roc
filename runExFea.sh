@@ -24,9 +24,4 @@ python extraction.py model/$trainNet model/caffemodel/$caffemodel model/image_me
 
 echo "extractin done.."
 
-# run the ROC results
-
-python test_lfw.py $pairlist $test_data $thres_s $thres_e $thres_g
-
-echo "done"
 
