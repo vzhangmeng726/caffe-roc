@@ -11,12 +11,6 @@ imagesize=50
 outputPath=$name
 
 
-pairlist=filelist/lfw_pair.mat
-test_data=feature/${name}.npy
-thres_s=-1
-thres_e=1
-thres_g=0.5
-
 
 # extract the deep feature from data by caffmodels and trainNet that you are using
 
